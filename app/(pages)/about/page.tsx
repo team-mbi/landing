@@ -17,7 +17,6 @@ import {
   featuresFourAboutTwo,
   features3About,
   hero2About,
-  statsAbout,
   stepsAbout,
   testimonials2About,
   featuresAbout,
@@ -32,7 +31,6 @@ const Page = () => {
   return (
     <>
       <Hero2 {...hero2About} />
-      <Stats {...statsAbout} />
       <Features4 {...featuresFourAbout} />
       <Features4 {...featuresFourAboutTwo} />
       <Steps {...stepsAbout} />
