@@ -1,10 +1,10 @@
 const SITE = {
-  name: 'MBI AU',
+  name: 'MBI Amanatul Ummah',
   origin: 'https://mbi-au.vercel.app',
   basePathname: '/',
   trailingSlash: false,
-  title: 'MBI AU - Your Success Start Here!',
-  description: 'MBI AU - Your Success Start Here!',
+  title: 'MBI Amanatul Ummah - Your Success Start Here!',
+  description: 'MBI Amanatul Ummah - Your Success Start Here!',
 };
 
 module.exports = { SITE };

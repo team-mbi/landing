@@ -331,7 +331,8 @@ type StatsProps = Widget & {
   items: Array<Item>;
 };
 
-type SocialProofProps = Widget & {
+type UniversitiesProps = Widget & {
+  header?: Header;
   images: Array<Image>;
 };
 

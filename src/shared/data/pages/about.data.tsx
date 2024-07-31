@@ -3,7 +3,6 @@ import {
   FAQsProps,
   FeaturesProps,
   HeroProps,
-  StatsProps,
   StepsProps,
   TeamProps,
   TestimonialsProps,
@@ -54,30 +53,6 @@ export const hero2About: HeroProps = {
     src: heroImg,
     alt: 'Hero TailNext',
   },
-};
-
-// Stats data on About page *******************
-export const statsAbout: StatsProps = {
-  id: 'stats-on-about',
-  hasBackground: true,
-  items: [
-    {
-      title: 13269,
-      description: 'Downloads',
-    },
-    {
-      title: 24.8,
-      description: 'Stars',
-    },
-    {
-      title: 1767.77,
-      description: 'Forks',
-    },
-    {
-      title: 484000,
-      description: 'Users',
-    },
-  ],
 };
 
 // FeaturesFour data on About page *******************

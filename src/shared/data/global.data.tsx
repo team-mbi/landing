@@ -206,7 +206,7 @@ export const footerData: FooterProps = {
     <div className="mr-4 rtl:mr-0 rtl:ml-4 text-sm">
       &copy; {new Date().getFullYear()}{' '}
       <a
-        className="font-semibold text-slate-900 dark:text-gray-200 hover:text-green-600 hover:underline dark:hover:text-green-600"
+        className="font-semibold text-slate-900 dark:text-gray-200 hover:text-teal-600 hover:underline dark:hover:text-teal-600"
         href="https://mbi-au.sch.id/"
       >
         {' '}
@@ -254,7 +254,7 @@ export const footerData2: FooterProps = {
     <div className="mr-4 rtl:mr-0 rtl:ml-4 text-sm">
       &copy; {new Date().getFullYear()}{' '}
       <a
-        className="font-semibold text-slate-900 dark:text-gray-200 hover:text-green-600 hover:underline dark:hover:text-green-600"
+        className="font-semibold text-slate-900 dark:text-gray-200 hover:text-teal-600 hover:underline dark:hover:text-teal-600"
         href="https://mbi-au.sch.id/"
       >
         {' '}

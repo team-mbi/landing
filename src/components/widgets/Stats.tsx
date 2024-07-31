@@ -4,7 +4,7 @@ import WidgetWrapper from '../common/WidgetWrapper';
 
 const Stats = ({ items, id, hasBackground = false }: StatsProps) => (
   <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="">
-    <div className="row-gap-8 grid grid-cols-2 md:grid-cols-4">
+    <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
       {items.map(({ title, description }, index) => (
         <div
           key={`item-stat-${index}`}
@@ -13,7 +13,7 @@ const Stats = ({ items, id, hasBackground = false }: StatsProps) => (
           <div className="font-heading text-primary text-[2.6rem] font-bold dark:text-white lg:text-5xl xl:text-6xl">
             {getSuffixNumber(title as number)}
           </div>
-          <p className="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400 lg:text-base">
+          <p className="text-lg font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400 lg:text-xl">
             {description}
           </p>
         </div>

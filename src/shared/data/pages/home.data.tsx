@@ -23,7 +23,8 @@ import {
   FeaturesProps,
   HeroProps,
   PricingProps,
-  SocialProofProps,
+  UniversitiesProps,
+  StatsProps,
   StepsProps,
   TeamProps,
   TestimonialsProps,
@@ -73,10 +74,89 @@ export const heroHome: HeroProps = {
   },
 };
 
-// SocialProof data on Home page *******************
-export const socialProofHome: SocialProofProps = {
-  id: 'socialProof-on-home',
+// Stats data on Home page *******************
+export const statHome: StatsProps = {
+  id: 'stats-on-home',
+  hasBackground: true,
+  items: [
+    {
+      title: 13269,
+      description: 'Downloads',
+    },
+    {
+      title: 24.8,
+      description: 'Stars',
+    },
+    {
+      title: 1767.77,
+      description: 'Forks',
+    },
+    {
+      title: 484000,
+      description: 'Users',
+    },
+    {
+      title: 13269,
+      description: 'Downloads',
+    },
+    {
+      title: 24.8,
+      description: 'Stars',
+    },
+    {
+      title: 1767.77,
+      description: 'Forks',
+    },
+    {
+      title: 484000,
+      description: 'Users',
+    },
+
+    {
+      title: 13269,
+      description: 'Downloads',
+    },
+    {
+      title: 24.8,
+      description: 'Stars',
+    },
+    {
+      title: 1767.77,
+      description: 'Forks',
+    },
+    {
+      title: 484000,
+      description: 'Users',
+    },
+    {
+      title: 13269,
+      description: 'Downloads',
+    },
+    {
+      title: 24.8,
+      description: 'Stars',
+    },
+    {
+      title: 1767.77,
+      description: 'Forks',
+    },
+    {
+      title: 484000,
+      description: 'Users',
+    },
+  ],
+};
+
+// Universities data on Home page *******************
+export const universitiesHome: UniversitiesProps = {
+  id: 'universities-on-home',
   hasBackground: false,
+  header: {
+    title: 'Raih Masa Depan Gemilang Bersama Kami',
+    subtitle:
+      'Bergabunglah dengan kami dan jadilah bagian dari komunitas belajar yang berprestasi. Bersama-sama, kita wujudkan masa depan cerah melalui pendidikan berkualitas dan studi lanjut yang gemilang.',
+    tagline: 'Studi Lanjut',
+  },
   images: [
     {
       link: 'https://nextjs.org/',
@@ -97,6 +177,62 @@ export const socialProofHome: SocialProofProps = {
       link: 'https://www.typescriptlang.org/',
       src: typescriptLogo,
       alt: 'Typescript Logo',
+    },
+    {
+      link: 'https://nextjs.org/',
+      src: nextJsLogo,
+      alt: 'NextJs Logo',
+    },
+    {
+      link: 'https://react.dev/',
+      src: reactLogo,
+      alt: 'React Logo',
+    },
+    {
+      link: 'https://tailwindcss.com/',
+      src: tailwindCssLogo,
+      alt: 'Tailwind CSS Logo',
+    },
+    {
+      link: 'https://www.typescriptlang.org/',
+      src: typescriptLogo,
+      alt: 'Typescript Logo',
+    },
+
+    {
+      link: 'https://nextjs.org/',
+      src: nextJsLogo,
+      alt: 'NextJs Logo',
+    },
+    {
+      link: 'https://react.dev/',
+      src: reactLogo,
+      alt: 'React Logo',
+    },
+    {
+      link: 'https://tailwindcss.com/',
+      src: tailwindCssLogo,
+      alt: 'Tailwind CSS Logo',
+    },
+    {
+      link: 'https://www.typescriptlang.org/',
+      src: typescriptLogo,
+      alt: 'Typescript Logo',
+    },
+    {
+      link: 'https://nextjs.org/',
+      src: nextJsLogo,
+      alt: 'NextJs Logo',
+    },
+    {
+      link: 'https://react.dev/',
+      src: reactLogo,
+      alt: 'React Logo',
+    },
+    {
+      link: 'https://tailwindcss.com/',
+      src: tailwindCssLogo,
+      alt: 'Tailwind CSS Logo',
     },
   ],
 };

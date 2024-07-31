@@ -5,8 +5,8 @@ const Announcement = () => {
   const { title, callToAction } = announcementData;
 
   return (
-    <div className="hidden overflow-hidden text-ellipsis whitespace-nowrap border-b border-green-900 bg-green-900 px-3 py-2 text-sm text-gray-200 md:block">
-      <span className="bg-green-600 py-0.5 px-1 text-xs text-white font-semibold">{title}</span>{' '}
+    <div className="hidden overflow-hidden text-ellipsis whitespace-nowrap border-b border-teal-900 bg-teal-900 px-3 py-2 text-sm text-gray-200 md:block">
+      <span className="bg-teal-600 py-0.5 px-1 text-xs text-white font-semibold">{title}</span>{' '}
       {callToAction && callToAction.text && callToAction.href && (
         <a
           href={callToAction.href}
