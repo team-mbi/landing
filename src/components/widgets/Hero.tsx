@@ -1,8 +1,7 @@
-import Image from 'next/image';
 import { HeroProps } from '~/shared/types';
 import CTA from '../common/CTA';
 
-const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: HeroProps) => {
+const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, videoSrc }: HeroProps) => {
   return (
     <section id="heroOne">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
@@ -26,17 +25,19 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: 
               </div>
             </div>
           </div>
-          <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-            <iframe
-              title="hero video"
-              className="absolute top-0 left-0 w-full h-full rounded-md"
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/t-teMmd5Q0U"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          </div>
+          {{ videoSrc } && (
+            <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+              <iframe
+                title="hero video"
+                className="absolute top-0 left-0 w-full h-full rounded-md"
+                width="560"
+                height="315"
+                src={videoSrc?.src}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          )}
         </div>
       </div>
     </section>

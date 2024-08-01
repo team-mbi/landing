@@ -108,6 +108,12 @@ type Image = {
   alt: string;
 };
 
+type Video = {
+  link?: string;
+  src: string;
+  alt: string;
+};
+
 type Item = {
   title?: string | boolean | number;
   description?: string | Array<string>;
@@ -241,6 +247,7 @@ type HeroProps = {
   callToAction?: CallToActionType;
   callToAction2?: CallToActionType;
   image?: Image;
+  videoSrc?: Video;
 };
 
 type FAQsProps = Widget & {

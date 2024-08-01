@@ -60,9 +60,9 @@ export const heroHome: HeroProps = {
     text: 'Pelajari Lebih Lanjut',
     href: '/',
   },
-  image: {
-    src: heroImg,
-    alt: 'Hero TailNext',
+  videoSrc: {
+    src: 'https://www.youtube.com/embed/t-teMmd5Q0U',
+    alt: 'Hero Video',
   },
 };
 
@@ -70,10 +70,9 @@ export const heroHome: HeroProps = {
 export const statHome: StatsProps = {
   id: 'stats-on-home',
   header: {
-    title: 'Raih Masa Depan Gemilang Bersama Kami',
-    subtitle:
-      'Bergabunglah dengan kami dan jadilah bagian dari komunitas belajar yang berprestasi. Bersama-sama, kita wujudkan masa depan cerah melalui pendidikan berkualitas dan studi lanjut yang gemilang.',
-    tagline: 'Studi Lanjut',
+    title: 'Prestasi Kami',
+    subtitle: 'Dengan semangat tinggi, kami terus berkembang dan meraih prestasi di dunia pendidikan',
+    tagline: 'Keberhasilan Kami',
   },
   hasBackground: true,
   items: [
