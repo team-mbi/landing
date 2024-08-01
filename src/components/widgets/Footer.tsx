@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid grid-cols-12 gap-4 gap-y-8 py-8 sm:gap-8 md:py-12">
           <div className="col-span-12 lg:col-span-4">
             <div className="mb-2">
-              <a className="inline-block text-xl font-bold" href="/">
+              <a className="inline-block" href="/">
                 <Logo />
               </a>
             </div>

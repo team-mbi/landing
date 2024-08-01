@@ -1,9 +1,10 @@
 import { StatsProps } from '~/shared/types';
 import { getSuffixNumber } from '~/utils/utils';
-import WidgetWrapper from '../common/WidgetWrapper';
-
-const Stats = ({ items, id, hasBackground = false }: StatsProps) => (
+import Headline from '~/components/common/Headline';
+import WidgetWrapper from '~/components/common/WidgetWrapper';
+const Stats = ({ header, items, id, hasBackground = false }: StatsProps) => (
   <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="">
+    {header && <Headline header={header} titleClass="text-2xl sm:text-3xl" />}
     <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
       {items.map(({ title, description }, index) => (
         <div

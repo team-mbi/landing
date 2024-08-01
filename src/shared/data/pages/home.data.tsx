@@ -13,6 +13,7 @@ import {
   IconMail,
   IconMapPin,
   IconPhoneCall,
+  IconRegistered,
   IconRocket,
 } from '@tabler/icons-react';
 import {
@@ -42,30 +43,21 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
-      <span className="sm:whitespace-nowrap">Tailwind CSS</span>
-    </>
-  ),
-  subtitle: (
-    <>
-      <span className="hidden md:inline">
-        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          MBI
-        </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
+      Your{' '}
+      <span className="bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 bg-clip-text text-transparent">
+        Success
       </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+      Start Here
     </>
   ),
+  subtitle: <>Welcome to MBI Amanatul Ummah. The International Standard for World-Class Islamic Education.</>,
   callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
+    text: 'Pendaftaran Online',
+    href: 'https://sims.mbi-au.sch.id/psb/psb.php',
     targetBlank: true,
   },
   callToAction2: {
-    text: 'Learn more',
+    text: 'Pelajari Lebih Lanjut',
     href: '/',
   },
   image: {
@@ -77,49 +69,14 @@ export const heroHome: HeroProps = {
 // Stats data on Home page *******************
 export const statHome: StatsProps = {
   id: 'stats-on-home',
+  header: {
+    title: 'Raih Masa Depan Gemilang Bersama Kami',
+    subtitle:
+      'Bergabunglah dengan kami dan jadilah bagian dari komunitas belajar yang berprestasi. Bersama-sama, kita wujudkan masa depan cerah melalui pendidikan berkualitas dan studi lanjut yang gemilang.',
+    tagline: 'Studi Lanjut',
+  },
   hasBackground: true,
   items: [
-    {
-      title: 13269,
-      description: 'Downloads',
-    },
-    {
-      title: 24.8,
-      description: 'Stars',
-    },
-    {
-      title: 1767.77,
-      description: 'Forks',
-    },
-    {
-      title: 484000,
-      description: 'Users',
-    },
-    {
-      title: 13269,
-      description: 'Downloads',
-    },
-    {
-      title: 24.8,
-      description: 'Stars',
-    },
-    {
-      title: 1767.77,
-      description: 'Forks',
-    },
-    {
-      title: 484000,
-      description: 'Users',
-    },
-
-    {
-      title: 13269,
-      description: 'Downloads',
-    },
-    {
-      title: 24.8,
-      description: 'Stars',
-    },
     {
       title: 1767.77,
       description: 'Forks',

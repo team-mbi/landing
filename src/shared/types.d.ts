@@ -328,6 +328,7 @@ type ComparisonProps = Widget & {
 };
 
 type StatsProps = Widget & {
+  header?: Header;
   items: Array<Item>;
 };
 

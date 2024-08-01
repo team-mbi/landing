@@ -7,13 +7,12 @@ import {
   IconRss,
 } from '@tabler/icons-react';
 import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
-import Logo from '~/components/atoms/Logo';
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
-  title: 'NEW',
+  title: 'PENGUMUMAN',
   callToAction: {
-    text: '📢 PENGUMUMAN PENERIMAAN PESERTA DIDIK BARU (PPDB) GELOMBANG 1 JULI - SEPTEMBER 2024 📢',
+    text: '📢 PENERIMAAN PESERTA DIDIK BARU (PPDB) GELOMBANG 1 TELAH DIBUKA: 10 JULI - 30 SEPTEMBER 2024. 📢',
     href: 'https://sims.mbi-au.sch.id/psb/psb.php',
   },
 };
@@ -67,7 +66,7 @@ export const headerData: HeaderProps = {
   actions: [
     {
       text: 'Daftar',
-      href: 'https://github.com/onwidget/tailnext',
+      href: 'https://sims.mbi-au.sch.id/psb/psb.php',
       targetBlank: true,
     },
   ],
@@ -79,16 +78,16 @@ export const headerData: HeaderProps = {
 
 // Footer data
 export const footerData: FooterProps = {
-  links: [
-    {
-      label: 'Terms & Conditions',
-      href: '/terms',
-    },
-    {
-      label: 'Privacy Policy',
-      href: '/privacy',
-    },
-  ],
+  // links: [
+  //   {
+  //     label: 'Terms & Conditions',
+  //     href: '/terms',
+  //   },
+  //   {
+  //     label: 'Privacy Policy',
+  //     href: '/privacy',
+  //   },
+  // ],
   columns: [
     {
       title: 'Product',
