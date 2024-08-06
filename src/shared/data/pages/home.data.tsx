@@ -165,31 +165,6 @@ export const universitiesHome: UniversitiesProps = {
       src: reactLogo,
       alt: 'React Logo',
     },
-    {
-      link: 'https://tailwindcss.com/',
-      src: tailwindCssLogo,
-      alt: 'Tailwind CSS Logo',
-    },
-    {
-      link: 'https://www.typescriptlang.org/',
-      src: typescriptLogo,
-      alt: 'Typescript Logo',
-    },
-    {
-      link: 'https://nextjs.org/',
-      src: nextJsLogo,
-      alt: 'NextJs Logo',
-    },
-    {
-      link: 'https://react.dev/',
-      src: reactLogo,
-      alt: 'React Logo',
-    },
-    {
-      link: 'https://tailwindcss.com/',
-      src: tailwindCssLogo,
-      alt: 'Tailwind CSS Logo',
-    },
   ],
 };
 
@@ -201,12 +176,11 @@ export const featuresHome: FeaturesProps = {
   header: {
     title: (
       <>
-        What you get with <span className="whitespace-nowrap">MBI</span>
+        Kenapa <span className="text-primary-500">MBI</span> Amanatul Ummah?
       </>
     ),
-    subtitle:
-      "Elevating Your Digital Presence: Discover the Synergies Unleashed in Our Platform's Core Strengths, from Seamless Integration to Open Collaboration.",
-    tagline: 'Features',
+    subtitle: 'Menyediakan program pendidikan modern dan didampingi .',
+    tagline: 'Kenapa',
   },
   items: [
     {
@@ -740,8 +714,8 @@ export const contactHome: ContactProps = {
     ],
     textarea: {
       cols: 30,
-      rows: 5,
       name: 'textarea',
+      rows: 5,
       placeholder: 'Write your message...',
     },
     btn: {
